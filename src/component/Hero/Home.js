@@ -114,12 +114,3 @@ const Home = () => {
 };
 
 export default Home;
-
-{
-    /* <button
-type="button"
-onclick="window.open 'https://cafe.naver.com/freesiaforum?iframe_url=/MyCafeIntro.nhn%3Fclubid=30421471';"
->
-공빅 학생회
-</button> */
-}
