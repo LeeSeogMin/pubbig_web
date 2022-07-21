@@ -1,3 +1,8 @@
+.contact-modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
 .Contact .left {
     width: 36%;
 }
@@ -54,5 +59,10 @@
     .Contact .right {
         width: 100%;
         margin-top: 50px;
+    }
+    .contact-modal-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 40px;
     }
 }
