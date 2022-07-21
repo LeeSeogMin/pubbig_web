@@ -39,5 +39,5 @@
 .features-modal-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 35px;
+    grid-gap: 40px;
 }
