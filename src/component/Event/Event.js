@@ -12,7 +12,7 @@ const Event = () => {
                         <h1 className="text-center">공빅 소식</h1>
                     </div>
 
-                    <div className="content grid">
+                    <div className="content modal-grid">
                         {data.map((val, index) => {
                             return (
                                 <Card

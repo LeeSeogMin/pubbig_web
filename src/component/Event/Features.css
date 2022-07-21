@@ -35,3 +35,9 @@
 .p {
     color: rgb(60, 12, 192);
 }
+
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
+}
