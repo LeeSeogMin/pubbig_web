@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Lab.css';
 
 const Card = (props) => {
     const [modal, setModal] = useState(false);
