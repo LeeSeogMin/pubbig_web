@@ -1,13 +1,12 @@
 import React from 'react';
-import '../Portfolio/Portfolio.css';
-import '../Capston/Capston.css';
+import '../Capston.css';
 import Card from './Card';
 import BlogApi from './BlogApi';
 
 const Capston = () => {
     return (
         <>
-            <section className="Portfolio Capston" id="Capston">
+            <section className="Capston" id="Capston">
                 <div className="container top">
                     <div className="heading text-center">
                         <h1>캡스톤디자인</h1>
