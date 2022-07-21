@@ -26,28 +26,34 @@ const Header = () => {
                         >
                             {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
                             <li>
-                                <a href="#home">home</a>
+                                <a href="/">홈</a>
                             </li>
                             <li>
-                                <a href="#Major">전공</a>
+                                <a href="/component/Major/Major">전공</a>
                             </li>
                             <li>
-                                <a href="#Testimonial">교수진</a>
+                                <a href="/component/Prof/Prof">교수진</a>
                             </li>
                             <li>
-                                <a href="#Academy">학회/사회진출</a>
+                                <a href="/component/Academy/Academy">
+                                    학회/사회진출
+                                </a>
                             </li>
                             <li>
-                                <a href="#Lab">학부연구실</a>
+                                <a href="/component/Lab/Lab">학부연구실</a>
                             </li>
                             <li>
-                                <a href="#Capston">캡스톤디자인</a>
+                                <a href="/component/Capston/Capston">
+                                    캡스톤디자인
+                                </a>
                             </li>
                             <li>
-                                <a href="#Event">학부소식</a>
+                                <a href="/component/Event/Event">학부소식</a>
                             </li>
                             <li>
-                                <a href="#contact">contact</a>
+                                <a href="/component/Contact/Contact">
+                                    문의하기
+                                </a>
                             </li>
                         </ul>
                         <button
