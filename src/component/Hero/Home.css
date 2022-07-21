@@ -79,14 +79,14 @@
     width: 40%;
     position: relative;
 }
-.hero .right_img {
+/* .hero .right_img {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
     border-radius: 10px;
     height: 450px;
     width: 510px;
     margin-top: 50%;
-}
+} */
 .hero .right_img img {
     position: absolute;
     top: 30%;
