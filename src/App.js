@@ -11,7 +11,6 @@ import Contact from './component/Contact/Contact';
 import Academy from './component/Academy/Academy';
 import './App.css';
 import Footer from './component/Footer';
-import Navbar from './component/Navbar/Navbar';
 
 const App = () => {
     return (
