@@ -31,7 +31,7 @@ const Card = (props) => {
             {modal && (
                 <div className="modal modal-blog">
                     <div onClick={toggleModal} className="overlay"></div>
-                    <div className="modal-content d_flex">
+                    <div className="modal-content">
                         <div className="modal-img left">
                             <img src={props.image2} alt="그림" />
                         </div>
@@ -39,6 +39,7 @@ const Card = (props) => {
                             <h1>{props.title_one}</h1>
                             <p>{props.desc_one}</p>
                             <p>{props.desc_two}</p>
+                            <p>{props.desc_three}</p>
                             <div className="button f_flex mtop">
                                 <button className="btn_shadow">
                                     관심있어요 <i class="far fa-thumbs-up"></i>
