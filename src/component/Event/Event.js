@@ -6,9 +6,9 @@ import Card from './Card';
 const Event = () => {
     return (
         <>
-            <section className="features top" id="features">
-                <div className="container">
-                    <div className="heading text-center">
+            <section className="features" id="features">
+                <div className="container top">
+                    <div className="heading">
                         <h1 className="text-center">공빅 소식</h1>
                     </div>
 
