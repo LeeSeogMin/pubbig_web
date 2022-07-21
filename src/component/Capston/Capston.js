@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Capston.css';
+import './Capston.css';
 import Card from './Card';
 import BlogApi from './BlogApi';
 
