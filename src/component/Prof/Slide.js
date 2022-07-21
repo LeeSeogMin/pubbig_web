@@ -11,11 +11,11 @@ const Slide = (props) => {
             </div>
 
             <div className="right box">
-                <div className="icon">
+                {/* <div className="icon">
                     <div className="quote">
                         <i class="fal fa-quote-right"></i>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="modal-text right box btn_shadow">
                     <div>

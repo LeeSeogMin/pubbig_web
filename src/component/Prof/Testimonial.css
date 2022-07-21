@@ -1,6 +1,6 @@
 .modal-grid {
     display: grid;
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
     grid-gap: 35px;
 }
 .Testimonial h2 {
@@ -179,20 +179,34 @@ body.active-modal {
     margin: 0;
 }
 /*------------popup--------*/
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .modal,
     .overlay {
         overflow: scroll;
     }
 
     #Testimonial .modal .modal-img {
-        margin: 50px 0 50px 0;
+        margin: 5px 0 5px 0;
     }
     #Testimonial .modal-content {
-        flex-direction: column;
+        display: grid;
     }
+
     #Testimonial .modal .right,
     .modal .left {
         padding: 0;
+    }
+} */
+
+@media screen and (min-devic-width: 375px) and (min-device-height: 812px) {
+    .Testimoinal .right,
+    .Testimoinal .left {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .hero .f_flex {
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
     }
 }

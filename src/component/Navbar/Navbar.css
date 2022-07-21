@@ -75,7 +75,7 @@ nav {
     transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .logo {
         font-size: 20px;
     }
@@ -83,8 +83,8 @@ nav {
         font-size: 14px;
         margin-left: 10px;
     }
-}
-
+} */
+/* 
 @media screen and (min-devic-width: 375px) and (min-device-height: 812px) {
     .menu-icon {
         display: block;
@@ -128,7 +128,7 @@ nav {
     color: white;
     font-size: 40px;
     display: none;
-}
+} */
 
 @media screen and (max-width: 768px) {
     /* nav {
@@ -147,5 +147,11 @@ nav {
 
     #toggle {
         display: block;
+    }
+    body {
+        margin-top: 230px;
+    }
+    .hero h2 {
+        font-size: 8px;
     }
 }
