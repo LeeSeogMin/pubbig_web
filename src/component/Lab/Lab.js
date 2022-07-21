@@ -6,7 +6,7 @@ import data from './LabApi';
 const Lab = () => {
     return (
         <>
-            <section className="lab">
+            <section className="lab" id="lab">
                 <div className="container top">
                     <div className="heading">
                         <h1 className="text-center">학부 연구실</h1>
