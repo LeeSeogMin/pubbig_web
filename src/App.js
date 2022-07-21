@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Header from './component/Head/Header';
+import Navbar from './component/Navbar/Navbar';
 import Event from './component/Event/Event';
 import Home from './component/Hero/Home';
 import Major from './component/Major/Major';
@@ -11,11 +11,12 @@ import Contact from './component/Contact/Contact';
 import Academy from './component/Academy/Academy';
 import './App.css';
 import Footer from './component/Footer';
+import Navbar from './component/Navbar/Navbar';
 
 const App = () => {
     return (
         <div className="container">
-            <Header />
+            <Navbar />
             <Routes>
                 <Route path="/" element={<Home />}></Route>
                 <Route
