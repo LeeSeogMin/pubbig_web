@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Navbar from './component/Navbar/Navbar';
+import Header from './component/Head/Header';
 import Event from './component/Event/Event';
 import Home from './component/Hero/Home';
 import Major from './component/Major/Major';
@@ -15,7 +15,7 @@ import Footer from './component/Footer';
 const App = () => {
     return (
         <div className="container">
-            <Navbar />
+            <Header />
             <Routes>
                 <Route path="/" element={<Home />}></Route>
                 <Route
