@@ -9,7 +9,7 @@ const Event = () => {
             <section className="features top" id="features">
                 <div className="container">
                     <div className="heading text-center">
-                        <h1>공빅 소식</h1>
+                        <h1 className="text-center">공빅 소식</h1>
                     </div>
 
                     <div className="content grid">

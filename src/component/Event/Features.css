@@ -3,6 +3,9 @@
     color: rgb(225, 28, 28);
     transform: translateY(-10px);
 }
+.features h1 {
+    font-size: 25px;
+}
 
 .features .box {
     padding: 50px;
