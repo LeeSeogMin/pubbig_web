@@ -1,7 +1,9 @@
 .modal-heading {
     margin: 10px 0 50px 0;
 }
-
+.Capston h1 {
+    font-size: 25px;
+}
 .modal-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;

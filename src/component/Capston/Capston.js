@@ -8,8 +8,8 @@ const Capston = () => {
         <>
             <section className="Capston" id="Capston">
                 <div className="container top">
-                    <div className="heading text-center">
-                        <h1>캡스톤디자인</h1>
+                    <div className="heading">
+                        <h1 className="text-center">캡스톤디자인</h1>
                         <h4>
                             강의실 밖 현장에서 지도교수 그리고 현장 실무자와
                             함께 실무역량을 배양합니다
