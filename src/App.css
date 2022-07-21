@@ -120,8 +120,13 @@ footer {
     margin: 5% 0 5% 0;
 }
 footer p {
-    margin-top: 10px;
+    margin-top: 0px;
 }
+
+footer image {
+    margin-bottom: 0px;
+}
+
 /*----------Footer---------*/
 @media (max-width: 768px) {
     .grid {
