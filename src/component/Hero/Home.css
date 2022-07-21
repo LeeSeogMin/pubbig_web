@@ -93,7 +93,7 @@
     right: 1%;
     width: 510px;
 }
-@media (max-width: 768px) {
+@media screen and (min-devic-width: 375px) and (min-device-height: 812px) {
     .hero .right,
     .hero .left {
         width: 100%;
