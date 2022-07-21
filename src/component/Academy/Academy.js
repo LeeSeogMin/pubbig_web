@@ -6,7 +6,7 @@ import data from './AcademyApi';
 const Academy = () => {
     return (
         <>
-            <section className="Academy" id="Academy">
+            <section className="academy" id="academy">
                 <div className="container top">
                     <div className="heading">
                         <h1 className="text-center">학회와 사회진출반</h1>

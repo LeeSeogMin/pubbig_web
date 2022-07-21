@@ -1,11 +1,15 @@
-.Lab {
+.lab {
     position: relative;
 }
-.Lab .box {
+
+.lab h1 {
+    font-size: 25px;
+}
+.lab .box {
     border-radius: 10px;
     position: relative;
 }
-.Lab .box:hover {
+.lab .box:hover {
     background: none;
     transform: translateY(-0);
 }
@@ -14,30 +18,30 @@
     font-size: 10px;
 }
 
-.Lab .img {
+.lab .img {
     height: 300px;
     overflow: hidden;
     transition: 0.5s;
 }
-.Lab img {
+.lab img {
     width: 100%;
     border-radius: 10px;
     transition: 0.5s;
 }
-.Lab .box .img:hover img {
+.lab .box .img:hover img {
     transform: scale(1.2);
 }
-.Lab .category {
+.lab .category {
     margin: 20px 0 30px 0;
     text-transform: uppercase;
 }
-.Lab .category span {
+.lab .category span {
     color: #ff014f;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
 }
-.Lab .arrow {
+.lab .arrow {
     position: absolute;
     right: 30px;
     bottom: 11%;
@@ -46,18 +50,18 @@
     opacity: 0;
     transition: 0.5s;
 }
-.Lab .title:hover .arrow {
+.lab .title:hover .arrow {
     opacity: 1;
 }
-.Lab h2 {
+.lab h2 {
     font-size: 18px;
     transition: 0.5s;
     padding-bottom: 30px;
 }
-.Lab .box:hover h2 {
+.lab .box:hover h2 {
     color: #ff014f;
 }
-.Lab .box:hover {
+.lab .box:hover {
     color: black;
 }
 /*------------popup--------*/

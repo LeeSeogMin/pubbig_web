@@ -6,10 +6,10 @@ import data from './LabApi';
 const Lab = () => {
     return (
         <>
-            <section className="Lab">
+            <section className="lab">
                 <div className="container top">
-                    <div className="heading text-center">
-                        <h1>학부 연구실</h1>
+                    <div className="heading">
+                        <h1 className="text-center">학부 연구실</h1>
                         <h4>
                             공빅학부는 각 전공별로 실습을 위한 연구실이 별도로
                             마련되어 재학생의 연구를 지원하고 있습니다.
