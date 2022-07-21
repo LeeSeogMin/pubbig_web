@@ -18,6 +18,9 @@ const Card = (props) => {
             <div className="box btn_shadow ">
                 <div className="modal-heading text-center">
                     <h1 onClick={toggleModal}>{props.category}</h1>
+                    <a href="#popup" className="arrow" onClick={toggleModal}>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
                 <div className="img">
                     <img src={props.image1} alt="" onClick={toggleModal} />
@@ -26,16 +29,17 @@ const Card = (props) => {
 
             {/* Popup box */}
             {modal && (
-                <div className="modal">
+                <div className="modal modal-blog">
                     <div onClick={toggleModal} className="overlay"></div>
-                    <div className="modal-content d_flex">
+                    <div className="modal-content">
                         <div className="modal-img left">
                             <img src={props.image2} alt="그림" />
                         </div>
                         <div className="modal-text right">
-                            <h1>{props.title}</h1>
+                            <h1>{props.title_one}</h1>
                             <p>{props.desc_one}</p>
                             <p>{props.desc_two}</p>
+                            <p>{props.desc_three}</p>
                             <div className="button f_flex mtop">
                                 <button className="btn_shadow">
                                     관심있어요 <i class="far fa-thumbs-up"></i>

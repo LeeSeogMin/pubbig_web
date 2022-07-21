@@ -7,9 +7,10 @@ import curri from '../pic/curri.png';
 const Major = () => {
     return (
         <>
-            <section className="Major top" id="Major">
-                <div className="container">
-                    <div className="box btn_shadow">
+            <section className="major top" id="major">
+                <div className="container top">
+                    <div className="heading">
+                        <h1 className="text-center">공빅학부 전공소개</h1>
                         <ul>
                             <li>
                                 <h3>
@@ -40,7 +41,7 @@ const Major = () => {
                         </ul>
                     </div>
 
-                    <div className="content grid top">
+                    <div className="content modal-grid top">
                         {data.map((value, index) => {
                             return (
                                 <Card

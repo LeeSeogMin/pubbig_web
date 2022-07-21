@@ -41,7 +41,7 @@ const Contact = () => {
                         <h1>궁금한 사항을 물어보세요</h1>
                     </div>
 
-                    <div className="content contact-modal-grid">
+                    <div className="content d_flex">
                         <div className="left">
                             <div className="box box_shodow">
                                 <div className="details">
