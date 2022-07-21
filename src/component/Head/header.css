@@ -23,7 +23,7 @@ header {
 header .container {
     padding-top: 5px;
 }
-.navlink ul li {
+header ul li {
     margin-left: 30px;
 }
 
@@ -31,7 +31,7 @@ header .container {
 font-size: 13px;
 font-weight: 500;
 letter-spacing: 1px; */
-.navlink li:last-child a {
+.header li:last-child a {
     font-weight: 300;
     padding: 5px 5px;
     background-color: #01aacd;
@@ -40,7 +40,7 @@ letter-spacing: 1px; */
     border-radius: 2px;
 }
 
-.navlink ul li a {
+header ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: 300;
@@ -48,8 +48,8 @@ letter-spacing: 1px; */
     letter-spacing: 1px;
 }
 
-.navlink li a:hover,
-.navlink li a.active {
+.header li a:hover,
+.header li a.active {
     background-color: #fff;
     border-radius: 2px;
     color: #000;
