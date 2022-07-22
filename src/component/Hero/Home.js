@@ -14,14 +14,14 @@ const Home = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            공빅 학생회
+                            학생회
                         </a>
                         <a
                             href="https://www.hs.ac.kr/kor/10501/subview.do"
                             target="_blank"
                             rel="noreferrer"
                         >
-                            공빅학부 소개 자료
+                            공빅학부 자료
                         </a>
 
                         <a
@@ -29,7 +29,7 @@ const Home = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            한신대 홈페이지
+                            한신대학교
                         </a>
                     </div>
                 </div>
