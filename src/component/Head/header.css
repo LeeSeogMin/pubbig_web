@@ -138,7 +138,7 @@ header ul li a {
         height: 60px;
         line-height: 60px;
     }
-    .header.active {
+    header.active {
         height: 10vh;
     }
 
