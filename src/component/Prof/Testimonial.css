@@ -44,12 +44,12 @@
 }
 
 /*-----Testimonial slide-----------*/
-.Testimonial .slide {
+testimonial {
     max-width: 80%;
     margin: auto;
     height: 500px;
     position: relative;
-    display: flex;
+    display: d_flex;
     overflow: hidden;
 }
 article {
@@ -70,36 +70,6 @@ article.lastSlide {
 }
 article.nextSlide {
     transform: translateX(100%);
-}
-/*-----Testimonial slide-----------*/
-@media (max-width: 768px) {
-    article {
-        flex-direction: column;
-        padding: 20px;
-    }
-    .Testimonial .left {
-        width: 100%;
-        display: flex;
-        margin: 0;
-        margin-top: 15%;
-    }
-    .Testimonial .left img {
-        width: 190px;
-        border-radius: 10px;
-        margin-right: 20px;
-    }
-    .Testimonial .right {
-        width: 100%;
-        margin: 0;
-        padding: 0 0 0 0px;
-    }
-    .Testimonial .slide {
-        height: 70vh;
-        max-width: 90%;
-    }
-    .Testimonial .quote {
-        display: none;
-    }
 }
 
 /*------------popup--------*/
@@ -198,15 +168,41 @@ body.active-modal {
     }
 } */
 
+/*-----Testimonial slide-----------*/
 @media screen and (max-width: 576px) and (max-width: 767.98px) {
-    /* .Testimoinal .right,
-    .Testimoinal .left {
-        width: 100%;
-        margin-left: 20px;
-    } */
-
-    .Testimoinal .d_flex {
+    .testimonial {
+        display: flex;
         flex-direction: column;
-        /* flex-direction: column-reverse; */
+    }
+    .testimonial .left {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        margin-top: 15%;
+    }
+    .testimonial .left img {
+        width: 150px;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+    .testimonial .right {
+        width: 100%;
+        margin: 0;
+        padding: 0 0 0 0px;
+    }
+    .testimonial .slide {
+        height: 70vh;
+        max-width: 90%;
+    }
+    .testimonial .quote {
+        display: none;
     }
 }
+
+/* 
+    .features-modal-grid {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 40px;
+    }
+ */
