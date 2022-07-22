@@ -205,7 +205,7 @@ body.active-modal {
         margin-left: 20px;
     } */
 
-    .Testimoinal .flex {
+    .Testimoinal .d_flex {
         flex-direction: column;
         /* flex-direction: column-reverse; */
     }

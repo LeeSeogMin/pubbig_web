@@ -3,7 +3,7 @@ import './Testimonial.css';
 
 const Slide = (props) => {
     return (
-        <section className="testimonial text-center flex" id="testimonial">
+        <section className="testimonial d_flex" id="testimonial">
             <div className="modal-img left box btn_shadow">
                 <div className="img">
                     <img src={props.image} alt="" />
