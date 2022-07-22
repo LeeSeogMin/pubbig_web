@@ -43,4 +43,8 @@
     .modal-blog.modal .modal-content {
         margin-bottom: 20%;
     }
+    .modal-grid {
+        display: flex;
+        flex-direction: column;
+    }
 }

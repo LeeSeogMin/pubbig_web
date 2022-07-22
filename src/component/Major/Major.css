@@ -38,6 +38,10 @@
 
 /*----------blog_contact--------*/
 @media (max-width: 576px) and (max-width: 767.98px) {
+    .major-modal-grid {
+        display: flex;
+        flex-direction: column;
+    }
     .modal-blog.modal .modal-content {
         max-width: 90%;
     }
