@@ -3,13 +3,12 @@ import './Testimonial.css';
 
 const Slide = (props) => {
     return (
-        <div className="d_flex">
+        <section className="testimonial text-center flex" id="testimonial">
             <div className="modal-img left box btn_shadow">
                 <div className="img">
                     <img src={props.image} alt="" />
                 </div>
             </div>
-
             <div className="right box">
                 {/* <div className="icon">
                     <div className="quote">
@@ -39,7 +38,7 @@ const Slide = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

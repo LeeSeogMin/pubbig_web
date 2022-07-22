@@ -199,13 +199,13 @@ body.active-modal {
 } */
 
 @media screen and (max-width: 576px) and (max-width: 767.98px) {
-    .Testimoinal .right,
+    /* .Testimoinal .right,
     .Testimoinal .left {
         width: 100%;
         margin-left: 20px;
-    }
+    } */
 
-    .hero .f_flex {
+    .Testimoinal .flex {
         flex-direction: column;
         /* flex-direction: column-reverse; */
     }
