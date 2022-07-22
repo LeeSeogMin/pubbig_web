@@ -9,7 +9,7 @@ const Prof = () => {
             <section className="Testimonial" id="Testimonial">
                 <div className="container">
                     <div className="heading text-center">
-                        <h4>여러분과 함께 가는</h4>
+                        <h4>여러분과 함께 하는</h4>
                         <h1 className="tfont">교수진 소개</h1>
                     </div>
                     <div className="content">

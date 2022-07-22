@@ -173,6 +173,7 @@ body.active-modal {
     .testimonial {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     .testimonial .left {
         width: 100%;
@@ -183,7 +184,6 @@ body.active-modal {
     .testimonial .left img {
         width: 150px;
         border-radius: 10px;
-        margin-right: 20px;
     }
     .testimonial .right {
         width: 100%;
