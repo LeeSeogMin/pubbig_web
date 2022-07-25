@@ -7,15 +7,15 @@ import curri from '../pic/curri.png';
 const Major = () => {
     return (
         <>
-            <section className="major" id="major">
+            <section className="major">
                 <div className="container top">
                     <div className="heading">
                         <h1 className="text-center">학부 전공</h1>
                         <ul>
                             <li>
                                 <h4>
-                                    1. 공빅은 전통적 행정학 기반의 "공공관리
-                                    전공"과 AI빅데이터 활용 역량을 배양하는
+                                    1. 공빅은 행정학 기반의 "공공관리 전공"과
+                                    AI빅데이터 활용 역량을 배양하는
                                     "공공빅데이터전공"으로 구성된 교육과정을
                                     갖추고 있습니다. <br />
                                 </h4>
@@ -40,7 +40,7 @@ const Major = () => {
                         </ul>
                     </div>
 
-                    <div className="content major-modal-grid top">
+                    <div className="top modal-grid">
                         {data.map((value, index) => {
                             return (
                                 <Card
@@ -56,6 +56,7 @@ const Major = () => {
                             );
                         })}
                     </div>
+                    <br />
                     <div className="btn_shadow mtop">
                         <div className="modal-heading text-center">
                             <h1>교과목 체계</h1>

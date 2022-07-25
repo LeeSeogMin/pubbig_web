@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Capston.css';
+import './Capston';
 
 const Card = (props) => {
     const [modal, setModal] = useState(false);
@@ -52,7 +53,7 @@ const Card = (props) => {
                                 className="close-modal btn_shadow"
                                 onClick={toggleModal}
                             >
-                                <i class="fas fa-times"></i>
+                                닫기
                             </button>
                         </div>
                     </div>
@@ -61,5 +62,4 @@ const Card = (props) => {
         </>
     );
 };
-
 export default Card;

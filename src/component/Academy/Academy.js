@@ -6,9 +6,9 @@ import data from './AcademyApi';
 const Academy = () => {
     return (
         <>
-            <section className="academy" id="academy">
+            <section className="academy">
                 <div className="container top">
-                    <div className="heading">
+                    <div className="heading" id="academy">
                         <h1 className="text-center">학회와 사회진출반</h1>
                         <h4>
                             공빅학부는 3개의 학회를 두어 선배와 후배 간의 학문적
@@ -20,7 +20,7 @@ const Academy = () => {
                         </h4>
                     </div>
 
-                    <div className="content modal-grid">
+                    <div className="top modal-grid">
                         {data.map((value, index) => {
                             return (
                                 <Card

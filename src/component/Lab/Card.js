@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Lab';
 import './Lab.css';
 
 const Card = (props) => {
@@ -52,7 +53,7 @@ const Card = (props) => {
                                 className="close-modal btn_shadow"
                                 onClick={toggleModal}
                             >
-                                <i class="fas fa-times"></i>
+                                닫기
                             </button>
                         </div>
                     </div>
@@ -61,5 +62,4 @@ const Card = (props) => {
         </>
     );
 };
-
 export default Card;

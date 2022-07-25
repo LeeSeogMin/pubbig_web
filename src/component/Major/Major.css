@@ -1,51 +1,34 @@
-.modal-heading {
-    margin: 1px 0 1px 0;
+.major .modal-heading {
+    margin: 1px 0 30px 0;
 }
+
 .major h1 {
     font-size: 25px;
 }
-.major-modal-grid {
+
+.major ul {
+    margin-top: 20px;
+}
+
+.major .modal-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(1, 400px);
     grid-gap: 15px;
 }
 
-.modal-blog.modal,
-.modal-blog.overlay {
-    overflow: scroll;
-}
-.modal-blog.modal .modal-content {
-    position: relative;
-    top: 10%;
-    left: 0;
-    max-width: 70%;
-    margin: auto;
-    margin-bottom: 10%;
-}
-.modal-blog .modal-content .left,
-.modal-blog .modal-content .right {
-    width: 100%;
-    padding: 0;
-    margin-top: 10px;
-}
-/*----------blog_contact--------*/
-
-.blog_contact .left,
-.blog_contact .right {
-    margin: 0 25px 0 0;
+.major img {
+    max-width: 90%;
+    height: auto;
 }
 
-/*----------blog_contact--------*/
 @media (max-width: 576px) and (max-width: 767.98px) {
-    .major-modal-grid {
+    .major .modal-grid {
         display: flex;
         flex-direction: column;
     }
-    .modal-blog.modal .modal-content {
+    .modal-blog .modal-content {
         max-width: 90%;
-    }
-    .modal-blog.modal .modal-content {
         margin-bottom: 20%;
     }
 }

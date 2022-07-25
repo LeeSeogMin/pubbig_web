@@ -6,9 +6,9 @@ import data from './LabApi';
 const Lab = () => {
     return (
         <>
-            <section className="lab" id="lab">
+            <section className="lab">
                 <div className="container top">
-                    <div className="heading">
+                    <div className="heading" id="lab">
                         <h1 className="text-center">학부 연구실</h1>
                         <h4>
                             공빅학부는 각 전공별로 실습을 위한 연구실이 별도로
@@ -16,7 +16,7 @@ const Lab = () => {
                         </h4>
                     </div>
 
-                    <div className="content modal-grid">
+                    <div className="top modal-grid">
                         {data.map((value, index) => {
                             return (
                                 <Card

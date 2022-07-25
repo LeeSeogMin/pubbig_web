@@ -1,16 +1,17 @@
 import React from 'react';
-import './Testimonial.css';
+import './Prof.css';
 import Slide from './Slide';
 import data from './ProfApi';
 
 const Prof = () => {
     return (
         <>
-            <section className="Testimonial" id="Testimonial">
-                <div className="container">
-                    <div className="heading text-center">
+            <section className="prof">
+                <div className="container top">
+                    <div className="heading text-center" id="prof">
                         <h4>여러분과 함께 하는</h4>
-                        <h1 className="tfont">교수진 소개</h1>
+                        <br />
+                        <h1>교수진 소개</h1>
                     </div>
                     <div className="content">
                         {data.map((val, index) => {

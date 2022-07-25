@@ -1,50 +1,25 @@
-.modal-heading {
-    margin: 10px 0 50px 0;
+.capston .heading h1 {
+    margin-bottom: 20px;
 }
-.Capston h1 {
+
+.capston h1 {
     font-size: 25px;
+    margin-bottom: 20px;
 }
+
 .modal-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 35px;
 }
 
-.modal-blog.modal,
-.modal-blog.overlay {
-    overflow: scroll;
-}
-.modal-blog.modal .modal-content {
-    position: relative;
-    top: 10%;
-    left: 0;
-    max-width: 70%;
-    margin: auto;
-    margin-bottom: 10%;
-}
-.modal-blog .modal-content .left,
-.modal-blog .modal-content .right {
-    width: 100%;
-    padding: 0;
-    margin-top: 10px;
-}
-/*----------blog_contact--------*/
-
-.blog_contact .left,
-.blog_contact .right {
-    margin: 0 25px 0 0;
-}
-
-/*----------blog_contact--------*/
-@media (max-width: 768px) {
-    .modal-blog.modal .modal-content {
-        max-width: 90%;
-    }
-    .modal-blog.modal .modal-content {
-        margin-bottom: 20%;
-    }
-    .modal-grid {
+@media (max-width: 576px) and (max-width: 767.98px) {
+    .capston .modal-grid {
         display: flex;
         flex-direction: column;
+    }
+    .modal-blog .modal-content {
+        max-width: 90%;
+        margin-bottom: 20%;
     }
 }

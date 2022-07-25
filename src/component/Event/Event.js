@@ -6,13 +6,13 @@ import Card from './Card';
 const Event = () => {
     return (
         <>
-            <section className="features" id="features">
+            <section className="features">
                 <div className="container top">
                     <div className="heading">
                         <h1 className="text-center">공빅 소식</h1>
                     </div>
 
-                    <div className="content features-modal-grid">
+                    <div className="content modal-grid">
                         {data.map((val, index) => {
                             return (
                                 <Card
@@ -24,15 +24,6 @@ const Event = () => {
                                 />
                             );
                         })}
-
-                        {/*<div className='box btn_shadow'>
-              <img src='https://img.icons8.com/glyph-neue/64/000000/polyline.png' alt='' />
-              <h2>Personal Portfolio April</h2>
-              <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.</p>
-              <a href=''>
-                <i class='fas fa-arrow-right'></i>
-              </a>
-            </div>*/}
                     </div>
                 </div>
             </section>

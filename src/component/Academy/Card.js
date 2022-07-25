@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Academy.css';
+import './Academy';
 
 const Card = (props) => {
     const [modal, setModal] = useState(false);
@@ -39,22 +40,22 @@ const Card = (props) => {
                             <h1>{props.title_one}</h1>
                             <p>{props.desc_one}</p>
                             <p>{props.desc_two}</p>
-                            <p>{props.desc_three}</p>
                             <div className="button f_flex mtop">
                                 <button className="btn_shadow">
-                                    관심있어요 <i class="far fa-thumbs-up"></i>
+                                    관심있어요
                                 </button>
                                 <button className="btn_shadow">
                                     관심없어요
-                                    <i class="fas fa-chevron-right"></i>
                                 </button>
                             </div>
-                            <button
-                                className="close-modal btn_shadow"
-                                onClick={toggleModal}
-                            >
-                                <i class="fas fa-times"></i>
-                            </button>
+                            <div>
+                                <button
+                                    className="close-modal btn_shadow"
+                                    onClick={toggleModal}
+                                >
+                                    닫기
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

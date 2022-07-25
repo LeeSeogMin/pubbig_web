@@ -1,22 +1,17 @@
 import React from 'react';
-import './Testimonial.css';
+import './Prof.css';
+import './Prof';
 
 const Slide = (props) => {
     return (
-        <section className="testimonial d_flex" id="testimonial">
-            <div className="modal-img left box btn_shadow">
+        <section className="testimonial d_flex">
+            <div className="box modal-img left btn_shadow">
                 <div className="img">
                     <img src={props.image} alt="" />
                 </div>
             </div>
-            <div className="right box">
-                {/* <div className="icon">
-                    <div className="quote">
-                        <i class="fal fa-quote-right"></i>
-                    </div>
-                </div> */}
-
-                <div className="modal-text right box btn_shadow">
+            <div className="right">
+                <div className="box modal-text right btn_shadow">
                     <div>
                         <h2 className="text-center">{props.name}</h2>
                     </div>

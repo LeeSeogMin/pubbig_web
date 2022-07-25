@@ -1,15 +1,7 @@
-.btn_shadow:hover {
-    background: #dcd4d7;
-    color: rgb(225, 28, 28);
-    transform: translateY(-10px);
-}
-.features h1 {
+.features box h1 {
     font-size: 25px;
 }
 
-.features .box {
-    padding: 50px;
-}
 .features .box h2 {
     margin: 20px 0 20px 0;
 }
@@ -19,24 +11,12 @@
     text-indent: 150px;
     color: rgb(61, 7, 224);
 }
-.features .box i {
-    font-size: 30px;
-    margin-top: 20px;
-    transition: 0.5s;
-    opacity: 0;
-}
+
 .features .box:hover p {
-    color: white;
-}
-.features .box:hover i {
-    color: white;
-    opacity: 1;
-}
-.p {
-    color: rgb(60, 12, 192);
+    color: rgb(64, 14, 201);
 }
 
-.features-modal-grid {
+.features .modal-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
