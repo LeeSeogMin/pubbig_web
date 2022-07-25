@@ -8,7 +8,7 @@ const Prof = () => {
         <>
             <section className="prof">
                 <div className="container top">
-                    <div className="heading text-center" id="prof">
+                    <div className="heading text-center">
                         <h4>여러분과 함께 하는</h4>
                         <br />
                         <h1>교수진 소개</h1>
