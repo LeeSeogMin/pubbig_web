@@ -127,8 +127,7 @@ const Home = () => {
 
             <div className="box12">
                 <h1 className="text-center">
-                    한신 공빅학부에서 누구보다 다양한 진로를 선택하고 준비할 수
-                    있습니다.
+                    한신 공빅학부에서 다양한 진로를 선택하고 준비할 수 있습니다.
                 </h1>
             </div>
 
