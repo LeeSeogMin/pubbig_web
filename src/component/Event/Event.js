@@ -9,7 +9,7 @@ const Event = () => {
             <section className="features">
                 <div className="container top">
                     <div className="heading">
-                        <h1 className="text-center">공빅 소식</h1>
+                        <h1 className="text-center">공빅학부 안내와 소식</h1>
                     </div>
 
                     <div className="content modal-grid">

@@ -1,25 +1,127 @@
-.major .modal-heading {
-    margin: 1px 0 30px 0;
-}
-
-.major h1 {
-    font-size: 25px;
-}
-
-.major ul {
-    margin-top: 20px;
-}
-
-.major .modal-grid {
+.major {
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(1, 400px);
-    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-template-areas:
+        'box1 box1 box1'
+        'box2 box2 box2'
+        'box3 box4 box4'
+        'box5 box5 box5'
+        'box6 box6 box7';
 }
 
-.major img {
-    max-width: 90%;
-    height: auto;
+.major .box1 {
+    grid-area: box1;
+    margin-bottom: 40px;
+}
+.major .box1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.major .box2 {
+    grid-area: box2;
+    margin-bottom: 40px;
+}
+
+.major .h_btn_shadow {
+    padding: 18px 18px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: #000;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: linear-gradient(
+        to right,
+        lightCyan,
+        rgb(36, 108, 136),
+        rgb(30, 60, 108)
+    );
+}
+
+.major .box3 {
+    grid-area: box3;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.major .box3 h1 {
+    color: blue;
+    font-size: 20px;
+}
+.major .box3 h2 {
+    font-size: 20px;
+}
+
+.major .box4 {
+    grid-area: box4;
+    width: 100%;
+    margin-bottom: 40px;
+    line-height: 300%;
+}
+
+.major .box4 tr {
+    font-size: 20px;
+}
+
+.major .box5 {
+    grid-area: box5;
+    margin-bottom: 40px;
+}
+
+.major .data {
+    padding: 18px 18px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: #000;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    letter-spacing: 1px;
+    line-height: 30px;
+    background: linear-gradient(
+        to left,
+        lightCyan,
+        rgb(36, 108, 136),
+        rgb(30, 60, 108)
+    );
+}
+
+.major .box6 {
+    grid-area: box6;
+    margin-bottom: 40px;
+    line-height: 300%;
+}
+
+.major .box7 {
+    grid-area: box7;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.major .box6 tr {
+    font-size: 20px;
+}
+
+.major .box7 h1 {
+    color: blue;
+    font-size: 20px;
+}
+.major .box7 h2 {
+    font-size: 20px;
 }
 
 @media (max-width: 576px) and (max-width: 767.98px) {

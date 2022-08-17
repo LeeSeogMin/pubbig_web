@@ -7,6 +7,12 @@
     margin-bottom: 20px;
 }
 
+.academy .acad img {
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
 .modal-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;

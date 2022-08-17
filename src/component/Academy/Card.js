@@ -33,8 +33,13 @@ const Card = (props) => {
                 <div className="modal modal-blog">
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content">
-                        <div className="modal-img left">
-                            <img src={props.image2} alt="그림" />
+                        <div className="modal-img acad">
+                            <img
+                                src={props.image2}
+                                alt="그림"
+                                width="300px"
+                                height="300px"
+                            />
                         </div>
                         <div className="modal-text right">
                             <h1>{props.title_one}</h1>

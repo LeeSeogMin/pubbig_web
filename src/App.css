@@ -68,6 +68,7 @@ button {
     cursor: pointer;
     color: #000;
     transition: 0.5s;
+    text-align: center;
 }
 
 .btn_shadow:hover {
@@ -118,6 +119,10 @@ p {
 .text-center {
     text-align: center;
 }
+.text-justify {
+    text-align: justify-all;
+}
+
 .primary_color {
     color: #f00606df;
 }

@@ -1,8 +1,8 @@
 const LabApi = [
     {
         id: 1,
-        image1: '/Lab/study.jpeg',
-        image2: '',
+        image1: '/Lab/study2.jpeg',
+        image2: '/Lab/study.jpeg',
         category: '공공관리연구실',
         title_one: '공무원시험준비반 지원',
         desc_one:
@@ -12,7 +12,7 @@ const LabApi = [
     {
         id: 2,
         image1: '/Lab/bigdata.jpeg',
-        image2: '',
+        image2: '/Lab/bigdata.jpg',
         category: '공공빅데이터연구실',
         title_one: '공공자격증준비반 지원',
         desc_one:
