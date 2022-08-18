@@ -1,7 +1,7 @@
 const AcademyApi = [
     {
         id: 1,
-        image1: '/academy/학회.jpeg',
+        image1: '/academy/cyberlab.png',
         image2: '/academy/acad1.jpg',
         category: '학회',
         title_one: '역량강화를 위한 3개 학회',
