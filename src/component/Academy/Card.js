@@ -33,7 +33,7 @@ const Card = (props) => {
                 <div className="modal modal-blog">
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content">
-                        <div className="modal-img acad">
+                        <div className="modal-img caps">
                             <img
                                 src={props.image2}
                                 alt="그림"
@@ -47,20 +47,19 @@ const Card = (props) => {
                             <p>{props.desc_two}</p>
                             <div className="button f_flex mtop">
                                 <button className="btn_shadow">
-                                    관심있어요
+                                    관심있어요 <i class="far fa-thumbs-up"></i>
                                 </button>
                                 <button className="btn_shadow">
                                     관심없어요
+                                    <i class="fas fa-chevron-right"></i>
                                 </button>
                             </div>
-                            <div>
-                                <button
-                                    className="close-modal btn_shadow"
-                                    onClick={toggleModal}
-                                >
-                                    닫기
-                                </button>
-                            </div>
+                            <button
+                                className="close-modal btn_shadow"
+                                onClick={toggleModal}
+                            >
+                                닫기
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -68,5 +67,4 @@ const Card = (props) => {
         </>
     );
 };
-
 export default Card;

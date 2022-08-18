@@ -1,12 +1,14 @@
 .home {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-column-gap: 1rem;
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60px;
     grid-template-areas:
         'box1 box1'
         'box2 box3'
-        'box4 box5'
+        'box5 box5'
+        'box4 box4'
         'box6 box7'
         'box8 box8'
         'box9 box9'
@@ -21,31 +23,48 @@
 .home .box1 {
     grid-area: box1;
     margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 .home .box1 h1 {
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: 700;
+    color: #1808ff;
+    text-align: center;
 }
 
 .home .box2 {
     grid-area: box2;
-    font-size: 20px;
     color: #1808ff;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+.home .box2 h2 {
+    text-align: right;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.home .box3 h2 {
+    text-align: left;
+    font-size: 23px;
+    font-weight: 900;
 }
 
 .home .box3 {
     grid-area: box3;
-    font-size: 20px;
     color: #1808ff;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .home .box4 {
     grid-area: box4;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     line-height: 300%;
+}
+
+.home .box4 h2 {
+    text-align: center;
 }
 
 .home .box5 {
@@ -68,28 +87,30 @@
 .home .box8 {
     grid-area: box8;
     line-height: 300%;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .home .box8 h1 {
-    font-size: 30px;
-    font-weight: 700;
     line-height: 200%;
     color: #1808ff;
+    font-size: 28px;
 }
 
 .home .box9 {
     grid-area: box9;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 .home .box9 a {
-    color: #ff0814;
-    font-weight: 700;
+    color: #0e0d0ddf;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .home .box10 {
     grid-area: box10;
     margin-bottom: 40px;
+    padding-right: 60px;
 }
 
 .home .box10 h1 {
@@ -110,7 +131,8 @@
 
 .home .box11 {
     grid-area: box11;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
+    padding-left: 60px;
 }
 
 .home .box12 {
@@ -120,7 +142,7 @@
 
 .home .box12 h1 {
     font-size: 30px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: blue;
 }
 
@@ -129,11 +151,14 @@
     width: 100%;
     margin-bottom: 40px;
     line-height: 300%;
+    margin-top: 40px;
+    padding-right: 60px;
 }
 
 .home .box14 {
     grid-area: box14;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .home .box15 {
@@ -146,18 +171,20 @@
     width: 100%;
     margin-bottom: 40px;
     line-height: 300%;
+    padding-left: 60px;
 }
 
 .home .box17 {
     grid-area: box17;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     line-height: 300%;
+    padding-right: 60px;
 }
 
 .home .box18 {
     grid-area: box18;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .home .box19 {
@@ -173,13 +200,12 @@
 
 .home .box19 h1 {
     font-size: 30px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: blue;
 }
 
 .h_btn_shadow a {
-    font-size: 20px;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: #1808ff;
 }
 
@@ -196,7 +222,7 @@
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 
-@media screen and (min-width: 312px) and (max-width: 768px)  {
+@media screen and (min-width: 312px) and (max-width: 768px) {
     .home {
         display: flex;
         flex-direction: column;

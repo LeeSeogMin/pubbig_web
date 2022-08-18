@@ -34,7 +34,7 @@ const Contact = () => {
     };
     return (
         <>
-            <section className="Contact" id="contact">
+            <section className="contact">
                 <div className="container top">
                     <div className="heading text-center">
                         <h4>CONTACT</h4>

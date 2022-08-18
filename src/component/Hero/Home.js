@@ -11,13 +11,13 @@ import home7 from '../pic/pp3.png';
 const Home = () => {
     return (
         <section className="home">
-            <div className="top box box1 text-center">
+            <div className="top box1 text-center">
                 <h1>한신 공!빅! 에서 여러분의 미래를 설계하세요</h1>
             </div>
-            <div className="box2 text-center">
+            <div className="box2">
                 <h2>새 시대의 공공인재!</h2>
             </div>
-            <div className="box3 text-center">
+            <div className="box3">
                 <h2> 문과도 빅데이터 전문가</h2>
             </div>
             <div className="box4">
@@ -34,8 +34,8 @@ const Home = () => {
             </div>
             <div className="box5 text-center">
                 <iframe
-                    height="250px"
-                    width="300px"
+                    height="400px"
+                    width="700px"
                     src="https://www.youtube.com/embed/_wWfvg5xH2g"
                     title="YouTube video player"
                     frameborder="1"
@@ -109,8 +109,8 @@ const Home = () => {
                 <img src={home2} alt="" />
                 <h2>
                     한신 공빅학부는 2021년 첫 신입생이 입학한 신설학부입니다.
-                    신설학부가 왜 만들어졌을까요? 미래 사회가 필요로 하기
-                    때문입니다.
+                    신설학부가 왜 만들어졌을까요? <br />
+                    미래 사회가 필요로 하기 때문입니다.
                 </h2>
             </div>
 
@@ -119,7 +119,7 @@ const Home = () => {
                 <img src={home3} alt="" />
                 <h2>
                     한신 공빅학부의 두 전공은 미래 인재를 위한 교육과정으로
-                    채워져있습니다 2개의 실습실, 3개의 전공소학회, 2개의
+                    채워져 있습니다 2개의 실습실, 3개의 전공소학회, 2개의
                     사회진출준비반 등을 통해 여러분들을 입체적으로 체계적으로
                     지원하고 있습니다.
                 </h2>
@@ -179,7 +179,13 @@ const Home = () => {
                     <br /> 한신 공빅학부에서 그 기회를 잡으세요.
                     <br /> 여러분을 기다리고 있습니다.
                 </h1>
-                <img src={home7} alt="" className="sun" />
+                <img
+                    src={home7}
+                    height="150"
+                    width="150"
+                    alt=""
+                    className="sun"
+                />
             </div>
         </section>
     );

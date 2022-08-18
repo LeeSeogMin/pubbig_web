@@ -48,7 +48,7 @@ const Prof = () => {
             </div>
 
             <div className="box4 h_btn_shadow ">
-                <img src={p2} height="1000" width="700" alt="" />
+                <img src={p2} height="1200" width="700" alt="" />
             </div>
 
             <div className="box5 h_btn_shadow ">
@@ -82,7 +82,7 @@ const Prof = () => {
             </div>
 
             <div className="box7 h_btn_shadow ">
-                <img src={p4} height="1000" width="700" alt="" />
+                <img src={p4} height="1200" width="700" alt="" />
             </div>
 
             <div className="box8 h_btn_shadow ">
@@ -118,7 +118,7 @@ const Prof = () => {
             </div>
 
             <div className="box10 h_btn_shadow ">
-                <img src={p6} height="1000" width="700" alt="" />
+                <img src={p6} height="1200" width="700" alt="" />
             </div>
 
             <div className="box11 h_btn_shadow ">

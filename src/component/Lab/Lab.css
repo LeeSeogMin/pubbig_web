@@ -1,10 +1,18 @@
-.lab .heading h1 {
-    margin-bottom: 20px;
+.lab {
+    display: flex;
 }
 
-.lab h1 {
-    font-size: 25px;
+.lab .heading h1 {
     margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.lab .heading h4 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 200%;
+    color: black;
 }
 
 .lab .modal-grid {

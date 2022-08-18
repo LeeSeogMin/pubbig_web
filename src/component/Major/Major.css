@@ -26,6 +26,11 @@
     margin-bottom: 40px;
 }
 
+.major .box2 h2 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
 .major .h_btn_shadow {
     padding: 18px 18px;
     border-radius: 6px;
@@ -58,10 +63,10 @@ table {
 
 .major .box3 h1 {
     color: blue;
-    font-size: 20px;
+    font-size: 18px;
 }
 .major .box3 h2 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .major .box4 {
@@ -72,12 +77,18 @@ table {
 }
 
 .major .box4 tr {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .major .box5 {
     grid-area: box5;
     margin-bottom: 40px;
+}
+
+.major .box5 h2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .major .data {
@@ -89,7 +100,6 @@ table {
     transition: 0.5s;
     font-size: 20px;
     font-weight: 700;
-    text-align: right;
     letter-spacing: 1px;
     line-height: 30px;
     background: linear-gradient(
@@ -113,15 +123,15 @@ table {
 }
 
 .major .box6 tr {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .major .box7 h1 {
     color: blue;
-    font-size: 20px;
+    font-size: 18px;
 }
 .major .box7 h2 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 @media screen and (min-width: 312px) and (max-width: 768px) {

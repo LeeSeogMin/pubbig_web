@@ -8,7 +8,7 @@ const Lab = () => {
         <>
             <section className="lab">
                 <div className="container top">
-                    <div className="heading" id="lab">
+                    <div className="heading">
                         <h1 className="text-center">학부 연구실</h1>
                         <h4>
                             공빅학부는 각 전공별로 실습을 위한 연구실이 별도로

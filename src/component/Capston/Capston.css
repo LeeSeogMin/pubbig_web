@@ -1,10 +1,18 @@
-.capston .heading h1 {
-    margin-bottom: 20px;
+.capston {
+    display: flex;
 }
 
-.capston h1 {
-    font-size: 25px;
+.capston .heading h1 {
     margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.capston .heading h4 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 200%;
+    color: black;
 }
 
 .capston .caps img {
