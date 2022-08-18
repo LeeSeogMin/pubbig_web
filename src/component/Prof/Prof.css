@@ -12,9 +12,10 @@
         'box14 box15 box16';
 }
 
-.prof img {
+.prof .h_btn_shadow img {
     margin-top: 30px;
-    margin-left: 60px;
+
+    box-sizing: border-box;
 }
 .prof .box4 img {
     margin-top: 60px;
