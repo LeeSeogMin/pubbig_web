@@ -196,9 +196,9 @@
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 
-/* @media (max-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 576px) and (max-width: 767.98px) {
     .home {
         display: flex;
         flex-direction: column;
     }
-} */
+}
