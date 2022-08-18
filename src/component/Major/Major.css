@@ -124,13 +124,9 @@ table {
     font-size: 20px;
 }
 
-@media (max-width: 576px) and (max-width: 767.98px) {
-    .major .modal-grid {
+@media screen and (min-width: 312px) and (max-width: 768px) {
+    .major {
         display: flex;
         flex-direction: column;
-    }
-    .modal-blog .modal-content {
-        max-width: 90%;
-        margin-bottom: 20%;
     }
 }

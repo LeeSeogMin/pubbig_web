@@ -124,7 +124,7 @@
     margin-left: 50px;
 }
 
-@media screen and (max-width: 576px) and (max-width: 767.98px) {
+@media screen and (min-width: 312px) and (max-width: 768px) {
     .prof {
         display: flex;
         flex-direction: column;
