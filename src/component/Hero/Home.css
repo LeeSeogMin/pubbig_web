@@ -229,7 +229,12 @@
         display: flex;
         flex-direction: column;
     }
-
+    .home .box1 h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #1808ff;
+        text-align: center;
+    }
     .home .box2 h2 {
         text-align: center;
         font-size: 23px;
@@ -276,5 +281,10 @@
         font-size: 20px;
         text-align: justify;
         color: blue;
+    }
+    .home .box19 .sun {
+        position: relative;
+        left: 1000px;
+        bottom: 5px;
     }
 }
