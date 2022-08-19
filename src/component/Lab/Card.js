@@ -33,7 +33,7 @@ const Card = (props) => {
                 <div className="modal modal-blog">
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content">
-                        <div className="modal-img lab">
+                        <div className="modal-img labs">
                             <img
                                 src={props.image2}
                                 alt="그림"

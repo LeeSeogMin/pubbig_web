@@ -17,27 +17,17 @@
 
 .capston .caps img {
     float: right;
-    margin-right: 200px;
+    margin-left: 50px;
     margin-top: 50px;
 }
 
-.modal-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 35px;
+.capston .modal-content {
+    display: flex;
 }
 
 @media screen and (min-width: 312px) and (max-width: 768px) {
     .capston .modal-grid {
         display: flex;
         flex-direction: column;
-    }
-    .modal-blog .caps img {
-        margin-right: 150px;
-        margin-left: 300px;
-        margin-top: 0px;
-        padding-top: 0px;
-        width: 150px;
-        height: 150px;
     }
 }

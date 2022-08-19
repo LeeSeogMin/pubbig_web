@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Academy.css';
+import './Academy';
 import './Academy';
 
 const Card = (props) => {
@@ -33,7 +33,7 @@ const Card = (props) => {
                 <div className="modal modal-blog">
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content">
-                        <div className="modal-img caps">
+                        <div className="modal-img acad">
                             <img
                                 src={props.image2}
                                 alt="그림"
