@@ -12,13 +12,15 @@ const Home = () => {
     return (
         <section className="home">
             <div className="top box1 text-center">
-                <h1>한신 공!빅! 에서 여러분의 미래를 설계하세요</h1>
+                <h1>
+                    한신 <i>공!빅!</i> 에서 여러분의 미래를 설계하세요
+                </h1>
             </div>
             <div className="box2">
                 <h2>새 시대의 공공인재!</h2>
             </div>
             <div className="box3">
-                <h2> 문과도 빅데이터 전문가</h2>
+                <h2> 문과도 빅데이터 전문가!</h2>
             </div>
             <div className="box4">
                 <h2>

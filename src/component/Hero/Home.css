@@ -31,7 +31,9 @@
     color: #1808ff;
     text-align: center;
 }
-
+.home .box1 i {
+    color: #ff0814;
+}
 .home .box2 {
     grid-area: box2;
     color: #1808ff;
