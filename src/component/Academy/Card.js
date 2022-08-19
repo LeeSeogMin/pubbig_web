@@ -18,8 +18,10 @@ const Card = (props) => {
         <>
             <div className="academy">
                 <div className="box btn_shadow ">
-                    <div className="modal-heading text-center">
-                        <h1 onClick={toggleModal}>{props.category}</h1>
+                    <div className="modal-heading">
+                        <h1 onClick={toggleModal} className="text-center">
+                            {props.category}
+                        </h1>
                         <a
                             href="#popup"
                             className="arrow"
