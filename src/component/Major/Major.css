@@ -144,22 +144,11 @@ table {
         font-weight: bold;
         text-align: center;
     }
-    .major .h_btn_shadow {
-        padding: 18px 18px;
-        border-radius: 6px;
-        color: #000;
-        font-size: 20px;
-        font-weight: 700;
-        letter-spacing: 1px;
-        line-height: 30px;
+    .major .box2 h2 {
+        color: rgb(14, 15, 15);
     }
-    .major .data {
-        padding: 18px 18px;
-        border-radius: 6px;
-        color: #000;
-        font-size: 20px;
-        font-weight: 700;
-        letter-spacing: 1px;
-        line-height: 30px;
+
+    .major .box5 h2 {
+        color: rgb(14, 15, 15);
     }
 }
