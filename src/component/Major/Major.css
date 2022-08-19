@@ -144,5 +144,22 @@ table {
         font-weight: bold;
         text-align: center;
     }
-    
+    .major .h_btn_shadow {
+        padding: 18px 18px;
+        border-radius: 6px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    .major .data {
+        padding: 18px 18px;
+        border-radius: 6px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
 }
