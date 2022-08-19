@@ -8,7 +8,7 @@ const Capston = () => {
         <>
             <section className="capston">
                 <div className="container top">
-                    <div className="heading">
+                    <div className="heading" id="cap">
                         <h1 className="text-center">캡스톤디자인</h1>
                         <h4>
                             강의실 밖 현장에서 지도교수 그리고 현장 실무자와

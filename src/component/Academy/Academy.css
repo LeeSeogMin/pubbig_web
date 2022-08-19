@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.academy .modal-grid {
+    display: flex;
+}
+
 .academy .heading h1 {
     margin-bottom: 20px;
     font-size: 30px;
@@ -27,10 +31,10 @@
 
 @media screen and (min-width: 312px) and (max-width: 768px) {
     .academy .modal-grid {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
     }
-    .modal-content {
+    .academy .modal-content {
         display: flex;
         flex-direction: column;
     }

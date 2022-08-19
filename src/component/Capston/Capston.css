@@ -8,6 +8,10 @@
     font-weight: 700;
 }
 
+.capston .modal-grid {
+    display: flex;
+}
+
 .capston .heading h4 {
     margin-bottom: 40px;
     font-size: 18px;
@@ -16,6 +20,12 @@
 }
 
 .capston .caps img {
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.capston .acad img {
     float: right;
     margin-left: 50px;
     margin-top: 50px;
@@ -27,6 +37,10 @@
 
 @media screen and (min-width: 312px) and (max-width: 768px) {
     .capston .modal-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .capsotn .modal-content {
         display: flex;
         flex-direction: column;
     }
