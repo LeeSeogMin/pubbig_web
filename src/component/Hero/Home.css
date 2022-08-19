@@ -248,6 +248,12 @@
         font-size: 23px;
         font-weight: 900;
     }
+
+    .home .box5 iframe {
+        height: 200px;
+        width: 300px;
+    }
+
     .home .box7 {
         margin-bottom: 20px;
     }
