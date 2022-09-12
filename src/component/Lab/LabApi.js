@@ -2,7 +2,7 @@ const LabApi = [
     {
         id: 1,
         image1: '/Lab/study2.jpeg',
-        image2: '/Lab/study.jpeg',
+        image2: '/Lab/study.jpg',
         category: '공공관리연구실',
         title_one: '공무원시험준비반 지원',
         desc_one:
