@@ -41,6 +41,7 @@
 
 /* 화면 크기 768px 이하일 때 변경될 스타일 */
 
+/* 화면 크기 768px 이하일 때 변경될 스타일 */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -48,12 +49,13 @@
   }
   .content {
     max-width: 90%;
+    margin: 0 20px; /* 작은 화면일 때는 좌우 마진을 20px로 설정 */
   }
 }
 
 /* 화면 폭 1024px 이상일 때 */ 
 @media (min-width: 1024px) {
-    .content {
-      padding: 0 100px; 
-    }
+  .content {
+    margin: 0 200px; /* 큰 화면일 때는 좌우 마진을 200px로 설정 */
   }
+}
