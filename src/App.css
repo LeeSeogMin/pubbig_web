@@ -32,19 +32,20 @@ h1 {
         height: auto;
     }
     
-/* 화면 폭 768px 이하 */
+/* 기본 스타일 */ 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 화면 크기 768px 이하일 때 변경될 스타일 */
+
 @media (max-width: 768px) {
-        .content {
-            max-width: 90%;
-        }
-        
-        h1 {
-            font-size: 18px;
-        }
-    } 
-    
-    /* 화면 폭 480px 이하 */
-    @media (max-width: 480px) {
-        /* Add styles for screen widths below 480px */
-    }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
   
