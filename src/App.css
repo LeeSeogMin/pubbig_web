@@ -11,11 +11,10 @@
     }
 
     .content {
-    max-width: 700px;
-    margin: 0 auto;  
-}
-
-h1 {
+        padding: 0 20px;
+      }
+      
+    h1 {
         font-size: 24px;  
     }
     
@@ -51,4 +50,10 @@ h1 {
     max-width: 90%;
   }
 }
-  
+
+/* 화면 폭 1024px 이상일 때 */ 
+@media (min-width: 1024px) {
+    .content {
+      padding: 0 100px; 
+    }
+  }
