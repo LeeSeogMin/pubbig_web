@@ -1,7 +1,12 @@
-@import "../App.css";
+/* @import "../App.css"; 이 줄을 제거합니다 */
+
+:root {
+    --primary-color: #1808ff;
+    --secondary-color: #ff0814;
+}
 
 .navbar {
-    background-color: var(--primary-color);
+    background-color: #fff;
     padding: 0 20px;
 }
 
@@ -27,6 +32,7 @@ nav {
     display: none;
     font-size: 20px;
 }
+
 .menu-icon .fa-times {
     transform: rotate(360deg);
     transition: all 0.2s ease-in-out;
@@ -40,11 +46,11 @@ nav {
 .logo {
     font-size: 25px;
     font-weight: bold;
-    color: #1808ff;
+    color: var(--primary-color);
 }
 
 .logo font {
-    color: #ff0814;
+    color: var(--secondary-color);
 }
 
 .menu-list {
@@ -67,89 +73,7 @@ nav {
 
 .menu-list li a:hover,
 .menu-list li a.active {
-    color: #1808ff;
-}
-
-/* @media screen and (max-width: 800px) {
-    .logo {
-        font-size: 20px;
-    }
-    .menu-list li a {
-        font-size: 14px;
-        margin-left: 10px;
-    }
-} */
-/* 
-@media screen and (min-devic-width: 375px) and (min-device-height: 812px) {
-    .menu-icon {
-        display: block;
-    }
-    .menu-list {
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        background: rgba(0, 0, 0, 0.7);
-        padding: 20px;
-        right: 0;
-        top: 64px;
-        transition: all 0.5s ease-in-out;
-    }
-
-    .menu-list li {
-        margin-bottom: 20px;
-        width: 100%;
-        text-align: center;
-    }
-    .menu-list li:last-child {
-        margin-bottom: 0px;
-    }
-
-    .menu-list li a,
-    .menu-list li:last-child a {
-        width: 100px;
-        display: block;
-        margin: auto;
-    }
-
-    .menu-list.close {
-        right: -100%;
-        transition: all 0.5s ease-in-out;
-    }
-}
-#toggle {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    color: white;
-    font-size: 40px;
-    display: none;
-} */
-
-@media screen and (max-width: 576px) and (max-width: 767.98px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        position: relative;
-    }
-
-    .menu-list {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    .menu-list li {
-        padding: 5px 15px;
-    }
-
-    #toggle {
-        display: block;
-    }
-    body {
-        margin-top: 10px;
-    }
-    .hero h2 {
-        font-size: 8px;
-    }
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 768px) {
