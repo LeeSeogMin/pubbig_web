@@ -13,7 +13,7 @@ const Home = () => {
         <section className="home">
             <div className="top box1 text-center">
                 <h1>
-                    한신 <i>공!빅!</i> 에서 여러분의 미래를 설계하세요
+                    한신 <i>공빅</i> 에서 여러분의 미래를 설계하세요
                 </h1>
             </div>
             <div className="box2">

@@ -5,30 +5,32 @@ import './Navbar.css';
 
 const Navbar = () => {
     const [clicked, setClicked] = useState(false);
-
     const menuList = MenuList.map(({ url, title }, index) => {
         return (
             <li key={index}>
-                <NavLink exact to={url} activeClassName="active" onClick={() => setClicked(false)}>
+                <NavLink to={url} activeClassName="active">
                     {title}
                 </NavLink>
             </li>
         );
     });
 
-    const handleClick = () => {
-        setClicked(!clicked);
-    };
+    // const handleClick = () => {
+    //     setClicked(!clicked);
+    // };
 
     return (
         <nav>
-            <div className="logo">
-                공공인재<font>빅데이터융합학부</font>
-            </div>
-            <div className="menu-icon" onClick={handleClick}>
-                <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
-            </div>
-            <ul className={clicked ? "menu-list" : "menu-list close"}>{menuList}</ul>
+            <div className="logo">한신대 공공인재빅데이터융합학부</div>
+            {/* <div className="menu-icon" onClick={handleClick}>
+                <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+            </div> */}
+            <ul
+                className={clicked ? 'menu-list' : 'menu-list close'}
+                onClick={() => setClicked(false)}
+            >
+                {menuList}
+            </ul>
         </nav>
     );
 };
