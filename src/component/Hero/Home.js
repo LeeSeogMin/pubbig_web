@@ -6,7 +6,6 @@ import home3 from '../pic/pp2.jpg';
 import home4 from '../pic/major1.jpg';
 import home5 from '../pic/major2.jpg';
 import home6 from '../pic/major3.jpg';
-import home7 from '../pic/pp3.png';
 
 const Home = () => {
     return (
@@ -108,7 +107,7 @@ const Home = () => {
 
             <div className="box10">
                 <h1>Why 공빅?</h1>
-                <img src={home2} alt="" />
+                <img src={home2} alt="" style={{width: '200px', height: 'auto'}} />
                 <h2>
                     한신 공빅학부는 2021년 첫 신입생이 입학한 신설학부입니다.
                     신설학부가 왜 만들어졌을까요? <br />
@@ -118,7 +117,7 @@ const Home = () => {
 
             <div className="box11">
                 <h1>How 공빅?</h1>
-                <img src={home3} alt="" />
+                <img src={home3} alt="" style={{width: '200px', height: 'auto'}} />
                 <h2>
                     한신 공빅학부의 두 전공은 미래 인재를 위한 교육과정으로
                     채워져 있습니다 2개의 실습실, 3개의 전공소학회, 2개의
@@ -181,13 +180,6 @@ const Home = () => {
                     <br /> 한신 공빅학부에서 그 기회를 잡으세요.
                     <br /> 여러분을 기다리고 있습니다.
                 </h1>
-                <img
-                    src={home7}
-                    height="150"
-                    width="150"
-                    alt=""
-                    className="sun"
-                />
             </div>
         </section>
     );

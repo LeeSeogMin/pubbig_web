@@ -1,7 +1,6 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './component/Navbar/Navbar';
-import Event from './component/Event/Event';
 import Home from './component/Hero/Home';
 import Major from './component/Major/Major';
 import Lab from './component/Lab/Lab';
@@ -12,38 +11,38 @@ import Academy from './component/Academy/Academy';
 import './App.css';
 import Footer from './component/Footer';
 
-const App = () => {
+function App() {
     return (
-        <div className="container">
+        <Router>
             <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />}></Route>
+            <Switch>
+                <Route exact path="/" component={Home} />
                 <Route
                     path="/component/Major/Major"
-                    element={<Major />}
-                ></Route>
-                <Route path="/component/Prof/Prof" element={<Prof />}></Route>
+                    component={Major}
+                />
+                <Route path="/component/Prof/Prof" component={Prof} />
                 <Route
                     path="/component/Academy/Academy"
-                    element={<Academy />}
-                ></Route>
-                <Route path="/component/Lab/Lab" element={<Lab />}></Route>
+                    component={Academy}
+                />
+                <Route path="/component/Lab/Lab" component={Lab} />
                 <Route
                     path="/component/Capston/Capston"
-                    element={<Capston />}
-                ></Route>
+                    component={Capston}
+                />
                 <Route
                     path="/component/Event/Event"
-                    element={<Event />}
-                ></Route>
+                    component={Event}
+                />
                 <Route
                     path="/component/Contact/Contact"
-                    element={<Contact />}
-                ></Route>
-            </Routes>
+                    component={Contact}
+                />
+            </Switch>
             <Footer />
-        </div>
+        </Router>
     );
-};
+}
 
 export default App;

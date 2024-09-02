@@ -49,6 +49,7 @@ nav {
     font-size: 18px;
     font-weight: bold;
     color: var(--primary-color);
+    line-height: 1.2;
 }
 
 .logo font {
@@ -63,7 +64,7 @@ nav {
 }
 
 .menu-list li {
-    margin-left: 20px;
+    margin-left: 30px;  /* 간격 증가 */
 }
 
 .menu-list li a {
@@ -77,6 +78,8 @@ nav {
 .menu-list li a:hover,
 .menu-list li a.active {
     color: var(--primary-color);
+    font-weight: 700;  /* 활성 메뉴 강조 */
+    border-bottom: 2px solid var(--primary-color);
 }
 
 @media screen and (max-width: 1024px) {
@@ -91,8 +94,18 @@ nav {
     }
 
     .menu-list {
-        flex-direction: column;
-        width: 100%;
+        display: none;
+    }
+
+    .menu-list.open {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        align-self: flex-end;
     }
 
     .menu-list li {
