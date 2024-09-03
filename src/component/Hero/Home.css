@@ -2,7 +2,7 @@
     --primary-color: #1808ff;
     --secondary-color: #ff0814;
     --background-color: #f5f5f5;
-    --text-color: #333;
+    --text-color: #000000; /* 여기를 검은색으로 변경 */
     --card-background: #ffffff;
 }
 
