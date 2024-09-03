@@ -32,12 +32,59 @@
     margin-left: 20px;
 }
 
-/* ... (나머지 스타일) ... */
+.menuList li a:hover,
+.menuList li a:global(.active) {
+    background-color: #fff;
+    border-radius: 2px;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.menuIcon {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        font-size: 20px;
+    }
+    .menuList li a {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .menuIcon {
         display: block;
     }
-    
-    /* ... (나머지 미디어 쿼리 스타일) ... */
+    .menuList {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        right: 0;
+        top: 64px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .menuList li {
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menuList li a {
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .menuList.close {
+        right: -100%;
+        transition: all 0.5s ease-in-out;
+    }
 }

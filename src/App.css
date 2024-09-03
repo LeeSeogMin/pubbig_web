@@ -5,6 +5,7 @@
     --secondary-color: #6c757d;
     --background-color: #ffffff;
     --text-color: #333333;
+    --card-background: #f8f9fa; /* 카드 배경색 추가 */
 }
 
 * {
@@ -22,7 +23,7 @@ body {
 }
 
 .container {
-    max-width: 95%;
+    max-width: 1200px; /* 95% 대신 고정 너비 사용 */
     margin: auto;
     padding: 0 20px;
 }
@@ -66,9 +67,15 @@ li {
     color: var(--text-color);
 }
 
+/* 반응형 디자인 개선 */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 95%;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
-        width: 100%;
         padding: 0 15px;
     }
 

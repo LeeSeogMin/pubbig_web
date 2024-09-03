@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { MenuList } from './MenuList';
-import './Navbar.module.css';
+import styles from './Navbar.module.css';
 
 const Navbar = () => {
     const [clicked, setClicked] = useState(false);
     const menuList = MenuList.map(({ url, title }, index) => {
         return (
             <li key={index}>
-                <NavLink to={url} activeClassName="active">
+                <NavLink to={url} activeClassName={styles.active}>
                     {title}
                 </NavLink>
             </li>
@@ -20,12 +20,12 @@ const Navbar = () => {
     };
 
     return (
-        <nav>
-            <div className="logo">한신대 공공인재빅데이터융합학부</div>
-            <div className="menu-icon" onClick={handleClick}>
+        <nav className={styles.nav}>
+            <div className={styles.logo}>한신대 공공인재빅데이터융합학부</div>
+            <div className={styles.menuIcon} onClick={handleClick}>
                 <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
-            <ul className={clicked ? 'menu-list' : 'menu-list close'}>
+            <ul className={`${styles.menuList} ${clicked ? '' : styles.close}`}>
                 {menuList}
             </ul>
         </nav>
