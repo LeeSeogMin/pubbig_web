@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { MenuList } from './MenuList';
-import styles from './Navbar.module.css';
+import styles from './Navbar.css';
 
 const Navbar = () => {
     const [clicked, setClicked] = useState(false);

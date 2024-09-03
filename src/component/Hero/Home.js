@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.module.css';
+import './Home.css';
 import home1 from '../pic/ncs.png';
 import home2 from '../pic/pp1.jpg';
 import home3 from '../pic/pp2.jpg';
