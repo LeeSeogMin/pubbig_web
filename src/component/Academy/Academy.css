@@ -1,52 +1,25 @@
-.academy {
-    display: flex;
-}
-
-.modal-blog.modal,
-.modal-blog.overlay {
-    overflow: scroll;
-}
-
-.academy .modal-grid {
-    display: flex;
-}
-
 .academy .heading h1 {
     margin-bottom: 20px;
-    font-size: 30px;
-    font-weight: 700;
 }
 
-.academy .heading h4 {
-    margin-bottom: 40px;
-    font-size: 18px;
-    line-height: 200%;
-    color: black;
+.academy h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
-.academy .acad img {
-    float: right;
-    margin-left: 50px;
-    margin-top: 50px;
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
 }
 
-.academy .modal-content {
-    display: flex;
-}
-
-@media screen and (min-width: 312px) and (max-width: 768px) {
+@media (max-width: 576px) and (max-width: 767.98px) {
     .academy .modal-grid {
         display: flex;
         flex-direction: column;
     }
-
-    .academy .modal-content {
-        display: flex;
-        flex-direction: column;
-    }
-    .academy .acad img {
-        float: right;
-        margin-left: 50px;
-        margin-top: 50px;
+    .modal-blog .modal-content {
+        max-width: 90%;
+        margin-bottom: 20%;
     }
 }

@@ -2,16 +2,6 @@
     display: flex;
 }
 
-.modal-blog.modal,
-.modal-blog.overlay {
-    overflow: scroll;
-}
-
-
-.lab .modal-grid {
-    display: flex;
-}
-
 .lab .heading h1 {
     margin-bottom: 20px;
     font-size: 30px;
@@ -25,14 +15,16 @@
     color: black;
 }
 
-.lab .labs img {
-    float: right;
-    margin-left: 50px;
-    margin-top: 50px;
+.lab .modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
 }
 
-.lab .modal-content {
-    display: flex;
+.lab .lab img {
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
 }
 
 @media screen and (min-width: 312px) and (max-width: 768px) {
@@ -40,8 +32,12 @@
         display: flex;
         flex-direction: column;
     }
-    .lab .modal-content {
-        display: flex;
-        flex-direction: column;
+    .modal-blog .lab img {
+        margin-right: 150px;
+        margin-left: 300px;
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 150px;
+        height: 150px;
     }
 }

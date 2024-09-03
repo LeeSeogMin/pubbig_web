@@ -24,7 +24,7 @@ export const MenuList = [
         url: '/component/Capston/Capston',
     },
     {
-        title: '안내/소식',
+        title: '학부 소식',
         url: '/component/Event/Event',
     },
     {

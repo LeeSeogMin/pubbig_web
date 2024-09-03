@@ -1,57 +1,48 @@
-.contact .contact-modal-grid {
+.contact-modal-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
 }
-.contact .heading h1 {
-    margin-bottom: 20px;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.contact .left {
+.Contact .left {
     width: 36%;
 }
-.contact .right {
+.Contact .right {
     width: 60%;
 }
-.contact .box {
+.Contact .box {
     padding: 30px;
 }
-.contact .details h1 {
+.Contact .details h1 {
     margin: 20px 0 20px 0;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 700;
+    font-size: 35px;
 }
-.contact .details p {
+.Contact .details p {
     font-size: 17px;
 }
-.contact .button {
+.Contact .button {
     margin-top: 20px;
 }
-.contact button {
+.Contact button {
     margin-right: 20px;
 }
 
-.contact .right {
+.Contact .right {
     padding: 35px;
 }
-.contact .input span {
+.Contact .input span {
     font-size: 13px;
 }
-.contact input {
+.Contact input {
     margin-top: 10px;
 }
-.contact .right button {
+.Contact .right button {
     width: 100%;
     color: #ff014f;
 }
-.contact .right button:hover {
+.Contact .right button:hover {
     color: white;
 }
-.contact .right button i {
+.Contact .right button i {
     margin-left: 10px;
 }
 .contact-img {
@@ -61,11 +52,11 @@
     width: 510px;
 }
 @media (max-width: 768px) {
-    .contact .d_flex {
+    .Contact .d_flex {
         flex-direction: column;
     }
-    .contact .left,
-    .contact .right {
+    .Contact .left,
+    .Contact .right {
         width: 100%;
         margin-top: 50px;
     }

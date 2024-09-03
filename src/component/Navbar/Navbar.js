@@ -21,11 +21,11 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className="logo">한신대<br/>공공인재빅데이터융합학부</div>
+            <div className="logo">한신대 공공인재빅데이터융합학부</div>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
-            <ul className={clicked ? 'menu-list open' : 'menu-list'}>
+            <ul className={clicked ? 'menu-list' : 'menu-list close'}>
                 {menuList}
             </ul>
         </nav>

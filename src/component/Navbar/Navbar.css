@@ -1,29 +1,14 @@
-/* @import "../App.css"; 이 줄을 제거합니다 */
-
-:root {
-    --primary-color: #1808ff;
-    --secondary-color: #ff0814;
-    --background-color: #ffffff;
-    --text-color: #000000; /* 검은색으로 변경 */
-}
-
-.navbar {
-    background-color: #fff;
-    padding: 0 20px;
-}
-
 nav {
-    background: var(--background-color);
-    padding: 15px 30px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    color: #fff;
     position: fixed;
+    z-index: 99;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
 }
 
 .fas {
@@ -34,7 +19,6 @@ nav {
     display: none;
     font-size: 20px;
 }
-
 .menu-icon .fa-times {
     transform: rotate(360deg);
     transition: all 0.2s ease-in-out;
@@ -46,84 +30,90 @@ nav {
 }
 
 .logo {
-    font-size: 18px;
-    font-weight: bold;
-    color: #000000; /* 검은색으로 변경 */
-    line-height: 1.2;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(247, 243, 8);
 }
 
 .logo font {
-    color: var(--secondary-color);
+    color: #fff;
 }
 
 .menu-list {
-    display: flex;
-    padding: 0;
-    margin: 0;
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.menu-list li {
-    margin-left: 30px;  /* 간격 증가 */
+.menu-list li:last-child a {
+    font-weight: 300;
+    padding: 5px 10px;
+    background-color: #01aacd;
+    transition: all 0.5s ease-in-out;
+    margin-left: 20px;
+    border-radius: 2px;
 }
 
 .menu-list li a {
     text-decoration: none;
-    color: #000000; /* 검은색으로 변경 */
-    font-weight: 500;
-    font-size: 14px;
-    transition: color 0.3s ease;
+    color: #fff;
+    font-weight: 300;
+    padding: 5px 10px;
+    margin-left: 20px;
 }
 
 .menu-list li a:hover,
 .menu-list li a.active {
-    color: var(--primary-color);
-    font-weight: 700;  /* 활성 메뉴 강조 */
-    border-bottom: 2px solid var(--primary-color);
+    background-color: #fff;
+    border-radius: 2px;
+    color: #000;
+    transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 1024px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 15px 20px;
-    }
-
+@media screen and (max-width: 800px) {
     .logo {
-        margin-bottom: 15px;
+        font-size: 20px;
     }
-
-    .menu-list {
-        display: none;
+    .menu-list li a {
+        font-size: 14px;
+        margin-left: 10px;
     }
+}
 
-    .menu-list.open {
-        display: flex;
-    }
-
+@media screen and (max-width: 600px) {
     .menu-icon {
         display: block;
-        cursor: pointer;
-        font-size: 24px;
-        align-self: flex-end;
+    }
+    .menu-list {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        right: 0;
+        top: 64px;
+        transition: all 0.5s ease-in-out;
     }
 
     .menu-list li {
-        margin: 10px 0;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .menu-list li:last-child {
+        margin-bottom: 0px;
     }
 
-    .menu-list li a {
+    .menu-list li a,
+    .menu-list li:last-child a {
+        width: 100px;
         display: block;
-        padding: 5px 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .logo {
-        font-size: 16px;
+        margin: auto;
     }
 
-    .menu-list li a {
-        font-size: 13px;
+    .menu-list.close {
+        right: -100%;
+        transition: all 0.5s ease-in-out;
     }
 }
