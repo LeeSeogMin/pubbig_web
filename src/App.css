@@ -1,4 +1,3 @@
-
 :root {
     --primary-color: #007bff;
     --body-font: Arial, sans-serif;
@@ -58,4 +57,35 @@ margin: 0 20px; /* 작은 화면일 때는 좌우 마진을 20px로 설정 */
 .content {
 margin: 0 200px; /* 큰 화면일 때는 좌우 마진을 200px로 설정 */
 }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
 }
