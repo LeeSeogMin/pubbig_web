@@ -47,9 +47,7 @@ const Prof = () => {
                 </h4>
             </div>
 
-            <div className="box4 h_btn_shadow ">
-                <img src={p2} height="1200" width="700" alt="" />
-            </div>
+            {/* Removed box4 */}
 
             <div className="box5 h_btn_shadow ">
                 <img src={p3} height="300" width="300" alt="" />
@@ -79,11 +77,23 @@ const Prof = () => {
                     자체평가위원회 위원(2021.01~현재), 지방공기업 경영평가
                     위원(2019.01~현재)
                 </h4>
+                <br />
+                <h3>연구저서</h3>
+                <h4>
+                    <br />
+                    (R과 STATA를 활용한) 평가 방법론: 준실험설계와
+                    질적접근(법문사, 2018)
+                    <br />
+                    인문사회과학을 위한 빅데이터분석 방법(윤성사, 세종도서 우수
+                    학술도서, 2019)
+                    <br />
+                    구조방정식모형의 이해와 R분석: 준실험설계접근(윤성사, 2021)
+                    <br />
+                    인공지능 자연어처리(윤성사, 근간)
+                </h4>
             </div>
 
-            <div className="box7 h_btn_shadow ">
-                <img src={p4} height="1200" width="700" alt="" />
-            </div>
+            {/* Removed box7 */}
 
             <div className="box8 h_btn_shadow ">
                 <img src={p5} height="300" width="300" alt="" />
@@ -117,9 +127,7 @@ const Prof = () => {
                 </h4>
             </div>
 
-            <div className="box10 h_btn_shadow ">
-                <img src={p6} height="1200" width="700" alt="" />
-            </div>
+            {/* Removed box10 */}
 
             <div className="box11 h_btn_shadow ">
                 <img src={p7} height="300" width="300" alt="" />
@@ -154,10 +162,6 @@ const Prof = () => {
             </div>
 
             <div className="box14 h_btn_shadow ">
-                <img src={p9} height="300" width="300" alt="" />
-            </div>
-
-            <div className="box15 h_btn_shadow ">
                 <h3 className="text-center">강현 초빙교수</h3>
                 <br />
                 <h3> 연구분야</h3>
@@ -178,9 +182,6 @@ const Prof = () => {
                     한국유전자사업자협회 감사, 서울시 소프트테니스협회
                     스포츠공정위원회 부위원장
                 </h4>
-            </div>
-            <div className="box16 h_btn_shadow ">
-                <img src={p10} height="300" width="300" alt="" />
             </div>
         </section>
     );
