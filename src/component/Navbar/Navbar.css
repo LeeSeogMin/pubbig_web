@@ -4,7 +4,7 @@
     --primary-color: #1808ff;
     --secondary-color: #ff0814;
     --background-color: #ffffff;
-    --text-color: #333333;
+    --text-color: #000000; /* 검은색으로 변경 */
 }
 
 .navbar {
@@ -48,7 +48,7 @@ nav {
 .logo {
     font-size: 18px;
     font-weight: bold;
-    color: var(--primary-color);
+    color: #000000; /* 검은색으로 변경 */
     line-height: 1.2;
 }
 
@@ -69,7 +69,7 @@ nav {
 
 .menu-list li a {
     text-decoration: none;
-    color: var(--text-color);
+    color: #000000; /* 검은색으로 변경 */
     font-weight: 500;
     font-size: 14px;
     transition: color 0.3s ease;
