@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './component/Navbar/Navbar';
 import Event from './component/Event/Event';
 import Home from './component/Hero/Home';
-import Major from './component/Major/major';
+import Major from './component/Major/Major';
 import Lab from './component/Lab/Lab';
 import Prof from './component/Prof/Prof';
 import Capston from './component/Capston/Capston';
