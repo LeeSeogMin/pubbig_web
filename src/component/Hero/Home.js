@@ -6,7 +6,6 @@ import home3 from '../pic/pp2.jpg';
 import home4 from '../pic/major1.jpg';
 import home5 from '../pic/major2.jpg';
 import home6 from '../pic/major3.jpg';
-import home7 from '../pic/pp3.png';
 
 const Home = () => {
     return (
