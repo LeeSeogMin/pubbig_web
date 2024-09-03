@@ -1,10 +1,15 @@
 import React from 'react';
 import './Prof.css';
 import p1 from '../pic/sch.png';
+import p2 from '../pic/sch_2.jpg';
 import p3 from '../pic/lee.png';
+import p4 from '../pic/lm_2.jpg';
 import p5 from '../pic/yg.jpg';
+import p6 from '../pic/yg_2.jpg';
 import p7 from '../pic/jm.png';
 import p8 from '../pic/pp1.png';
+import p9 from '../pic/k.png';
+import p10 from '../pic/pp2.png';
 
 const Prof = () => {
     return (
@@ -36,13 +41,15 @@ const Prof = () => {
                 <br />
                 <h3>경력</h3>
                 <h4>
-                    한국부동산분석학회 교육연구위��회 이사(2017.01~현재)·
+                    한국부동산분석학회 교육연구위원회 이사(2017.01~현재)·
                     한국주택학회, 이사(2019.01~현재), 서울연구원 도시정보실
                     빅데이터분석팀장, 한양대 도시부동산빅데이터 겸임교수
                 </h4>
             </div>
 
-            {/* Removed box4 */}
+            <div className="box4 h_btn_shadow ">
+                <img src={p2} height="1200" width="700" alt="" />
+            </div>
 
             <div className="box5 h_btn_shadow ">
                 <img src={p3} height="300" width="300" alt="" />
@@ -53,24 +60,25 @@ const Prof = () => {
                 <br />
                 <h3> 연구분야</h3>
                 <h4>
-                    정책분석평가, 계량경제학, 과학기술정책, 공공데이터분석,
-                    인공지능 프로그래밍 등
+                    데이터과학, 인공지능(딥러닝), 개발 프로그래밍,
+                    정책분석평가(사회실험), 계량경제학, R&D정책 등
                 </h4>
                 <br />
                 <h3>학력</h3>
                 <h4>
-                    서울대학교 정치학 박사(정책학)
+                    서울대학교 정치학 박사(과학기술정책)
                     <br />
-                    서울대학교 정치학 석사(의회정치)
+                    서울대학교 정치학 석사(정치학)
                     <br />
                     서울대학교 문학사(인류학)
                 </h4>
                 <br />
                 <h3>경력</h3>
                 <h4>
-                    서울시 안심소득 평가자문위원회 위원(2021.10~현재), 통��청
-                    자체평가위원회 위원(2021.01~현재), 지방공기업 경영평가
-                    위원(2019.01~현재)
+                    <br /> 행정학회 협치특별위원회 위원(2022~현재)
+                    <br /> 서울시 안심소득 정책자문위원회 위원(2021.10~현재)
+                    <br /> 통계청 자체평가위원회 위원(2021.01~현재)
+                    <br /> 지방공기업 경영평가 위원(2019.01~현재)
                 </h4>
                 <br />
                 <h3>연구저서</h3>
@@ -88,7 +96,9 @@ const Prof = () => {
                 </h4>
             </div>
 
-            {/* Removed box7 */}
+            <div className="box7 h_btn_shadow ">
+                <img src={p4} height="1200" width="700" alt="" />
+            </div>
 
             <div className="box8 h_btn_shadow ">
                 <img src={p5} height="300" width="300" alt="" />
@@ -117,12 +127,14 @@ const Prof = () => {
                     한국행정학회 교육취업위원회 이사(2021.01~현재),
                     한국지역정보화학회 연구위원회 위원(2021.01~현재),
                     한국조직학회 편집이사(2020.01~현재), 통계청 통계사무
-                    위탁심의위���(2020.09~현재), 인천광역시 데이터기반행정위원회
+                    위탁심의위원(2020.09~현재), 인천광역시 데이터기반행정위원회
                     위원(2021.04.29.~현재)
                 </h4>
             </div>
 
-            {/* Removed box10 */}
+            <div className="box10 h_btn_shadow ">
+                <img src={p6} height="1200" width="700" alt="" />
+            </div>
 
             <div className="box11 h_btn_shadow ">
                 <img src={p7} height="300" width="300" alt="" />
@@ -157,6 +169,10 @@ const Prof = () => {
             </div>
 
             <div className="box14 h_btn_shadow ">
+                <img src={p9} height="300" width="300" alt="" />
+            </div>
+
+            <div className="box15 h_btn_shadow ">
                 <h3 className="text-center">강현 초빙교수</h3>
                 <br />
                 <h3> 연구분야</h3>
@@ -168,7 +184,7 @@ const Prof = () => {
                     <br />
                     서울대학교 행정대학원 행정학 석사
                     <br />
-                    고려대��교 행정학사/교육학사
+                    고려대학교 행정학사/교육학사
                 </h4>
                 <br />
                 <h3>경력</h3>
@@ -177,6 +193,9 @@ const Prof = () => {
                     한국유전자사업자협회 감사, 서울시 소프트테니스협회
                     스포츠공정위원회 부위원장
                 </h4>
+            </div>
+            <div className="box16 h_btn_shadow ">
+                <img src={p10} height="300" width="300" alt="" />
             </div>
         </section>
     );

@@ -31,6 +31,7 @@ const Academy = () => {
                                     totalLike={value.totalLike}
                                     desc_one={value.desc_one}
                                     desc_two={value.desc_two}
+                                    desc_three={value.desc_three}
                                 />
                             );
                         })}

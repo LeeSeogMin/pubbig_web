@@ -139,4 +139,16 @@ table {
         display: flex;
         flex-direction: column;
     }
+    .major .box1 h1 {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .major .box2 h2 {
+        color: rgb(14, 15, 15);
+    }
+
+    .major .box5 h2 {
+        color: rgb(14, 15, 15);
+    }
 }
