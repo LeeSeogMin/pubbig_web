@@ -14,9 +14,8 @@ body {
     padding-top: 75px;
 }
 .container {
-    max-width: 1200px; /* Home 컴포넌트와 일치 */
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 95%;
+    margin: auto;
 }
 .d_flex {
     display: flex;
