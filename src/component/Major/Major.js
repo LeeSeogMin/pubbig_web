@@ -16,7 +16,7 @@ const Major = () => {
 			{ threshold: 0.1 }
 		);
 
-		const majorItems = majorRef.current.querySelectorAll('.major-item');
+		const majorItems = majorRef.current.querySelectorAll('.major-item, .box1, .box2, .box3, .box4, .box5, .box6, .box7');
 		majorItems.forEach((item) => observer.observe(item));
 
 		return () => {
@@ -26,16 +26,30 @@ const Major = () => {
 
 	return (
 		<div className="major-container" ref={majorRef}>
-			<div className="major-grid">
-				<div className="major-item">
-					<h2>전공 1</h2>
-					<p>전공 1에 대한 설명...</p>
+			<div className="major">
+				<div className="box1">
+					<h1>전공 소개</h1>
 				</div>
-				<div className="major-item">
-					<h2>전공 2</h2>
-					<p>전공 2에 대한 설명...</p>
+				<div className="box2">
+					<h2>공공관리전공</h2>
 				</div>
-				{/* 필요한 만큼 major-item을 추가하세요 */}
+				<div className="box3">
+					<h1>교과목 구성</h1>
+					<h2>공공관리전공 교과목</h2>
+				</div>
+				<div className="box4">
+					{/* 여기에 공공관리전공 교과목 테이블 추가 */}
+				</div>
+				<div className="box5">
+					<h2>공공빅데이터전공</h2>
+				</div>
+				<div className="box6">
+					{/* 여기에 공공빅데이터전공 교과목 테이블 추가 */}
+				</div>
+				<div className="box7">
+					<h1>교과목 구성</h1>
+					<h2>공공빅데이터전공 교과목</h2>
+				</div>
 			</div>
 		</div>
 	);
