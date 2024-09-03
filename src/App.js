@@ -18,7 +18,7 @@ function App() {
             <div className="App">
                 <Navbar />
                 <div className="container">
-                    <Switch>
+                    <Router>
                         <Route path="/" element={<Home />}></Route>
                         <Route
                             path="/component/Major/Major"
@@ -42,7 +42,7 @@ function App() {
                             path="/component/Contact/Contact"
                             element={<Contact />}
                         ></Route>
-                    </Switch>
+                    </Router>
                 </div>
                 <Footer />
             </div>
