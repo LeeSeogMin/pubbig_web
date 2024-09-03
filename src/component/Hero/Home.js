@@ -181,13 +181,6 @@ const Home = () => {
                     <br /> 한신 공빅학부에서 그 기회를 잡으세요.
                     <br /> 여러분을 기다리고 있습니다.
                 </h1>
-                <img
-                    src={home7}
-                    height="150"
-                    width="150"
-                    alt=""
-                    className="sun"
-                />
             </div>
         </section>
     );
