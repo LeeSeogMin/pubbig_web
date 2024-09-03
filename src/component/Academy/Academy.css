@@ -2,11 +2,6 @@
     display: flex;
 }
 
-.modal-blog.modal,
-.modal-blog.overlay {
-    overflow: scroll;
-}
-
 .academy .modal-grid {
     display: flex;
 }
@@ -39,14 +34,8 @@
         display: flex;
         flex-direction: column;
     }
-
     .academy .modal-content {
         display: flex;
         flex-direction: column;
-    }
-    .academy .acad img {
-        float: right;
-        margin-left: 50px;
-        margin-top: 50px;
     }
 }

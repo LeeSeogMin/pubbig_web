@@ -2,11 +2,6 @@
     display: flex;
 }
 
-.modal-blog.modal,
-.modal-blog.overlay {
-    overflow: scroll;
-}
-
 .capston .heading h1 {
     margin-bottom: 20px;
     font-size: 30px;
