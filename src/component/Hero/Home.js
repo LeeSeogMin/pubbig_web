@@ -6,13 +6,14 @@ import home3 from '../pic/pp2.jpg';
 import home4 from '../pic/major1.jpg';
 import home5 from '../pic/major2.jpg';
 import home6 from '../pic/major3.jpg';
+import home7 from '../pic/pp3.png';
 
 const Home = () => {
     return (
         <section className="home">
             <div className="top box1 text-center">
                 <h1>
-                    한신 <i>공빅</i> 에서 여러분의 미래를 설계하세요
+                    한신 <i>공!빅!</i> 에서 여러분의 미래를 설계하세요
                 </h1>
             </div>
             <div className="box2">
@@ -23,12 +24,12 @@ const Home = () => {
             </div>
             <div className="box4">
                 <h2>
-                    한신 공빅은 전국 최초로 사회과학(공공관리전공)과
+                    한신 공빅은 전국 최초로 사회과학(공공관리전공)에
                     빅데이터(공공빅데이터전공)를 함께 공부할 수 있는
                     융합학부입니다.
                 </h2>
                 <h2>
-                    한신 공빅은 공적정신(public mind)과 AI빅데이터 역량을
+                    한신 공빅은 공적정신(public mind)과 AI·빅데이터 역량을
                     기반으로 다양한 사회문제를 융합적으로 사고하고 창의적으로
                     해결해나가는 미래 인재를 양성합니다.
                 </h2>
@@ -107,7 +108,7 @@ const Home = () => {
 
             <div className="box10">
                 <h1>Why 공빅?</h1>
-                <img src={home2} alt="" style={{width: '200px', height: 'auto'}} />
+                <img src={home2} alt="" />
                 <h2>
                     한신 공빅학부는 2021년 첫 신입생이 입학한 신설학부입니다.
                     신설학부가 왜 만들어졌을까요? <br />
@@ -117,7 +118,7 @@ const Home = () => {
 
             <div className="box11">
                 <h1>How 공빅?</h1>
-                <img src={home3} alt="" style={{width: '200px', height: 'auto'}} />
+                <img src={home3} alt="" />
                 <h2>
                     한신 공빅학부의 두 전공은 미래 인재를 위한 교육과정으로
                     채워져 있습니다 2개의 실습실, 3개의 전공소학회, 2개의
@@ -150,7 +151,7 @@ const Home = () => {
             </div>
             <div className="box16">
                 <h2>
-                    둘째: 문과와 이과 관계없이 모두 빅데이터분석 전문가가 될 수
+                    둘째: 문과, 이과 관계없이 모두 빅데이터분석 전문가가 될 수
                     있습니다. 여러분이 문과든 이과든, 수학에 관심이 없고,
                     컴퓨터를 잘 몰라도 한신대 공빅학부의 공공빅데이터전공에서
                     빅데이터분석가로 성장할 수 있습니다. 데이터분석에서 AI까지
@@ -180,6 +181,13 @@ const Home = () => {
                     <br /> 한신 공빅학부에서 그 기회를 잡으세요.
                     <br /> 여러분을 기다리고 있습니다.
                 </h1>
+                <img
+                    src={home7}
+                    height="150"
+                    width="150"
+                    alt=""
+                    className="sun"
+                />
             </div>
         </section>
     );

@@ -16,15 +16,21 @@ const Card = (props) => {
     }
     return (
         <>
-            <div className="box btn_shadow ">
-                <div className="modal-heading text-center">
-                    <h1 onClick={toggleModal}>{props.category}</h1>
-                    <a href="#popup" className="arrow" onClick={toggleModal}>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                <div className="img lab1">
-                    <img src={props.image1} alt="" onClick={toggleModal} />
+            <div className="lab">
+                <div className="box btn_shadow ">
+                    <div className="modal-heading text-center">
+                        <h1 onClick={toggleModal}>{props.category}</h1>
+                        <a
+                            href="#popup"
+                            className="arrow"
+                            onClick={toggleModal}
+                        >
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div className="img lab1">
+                        <img src={props.image1} alt="" onClick={toggleModal} />
+                    </div>
                 </div>
             </div>
 
@@ -33,7 +39,7 @@ const Card = (props) => {
                 <div className="modal modal-blog">
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content">
-                        <div className="modal-img lab">
+                        <div className="modal-img labs">
                             <img
                                 src={props.image2}
                                 alt="그림"

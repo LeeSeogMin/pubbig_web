@@ -9,6 +9,9 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 6px;
 }
 
 .fas {
@@ -61,6 +64,7 @@ nav {
     font-weight: 300;
     padding: 5px 10px;
     margin-left: 20px;
+    letter-spacing: 1px;
 }
 
 .menu-list li a:hover,
@@ -71,7 +75,7 @@ nav {
     transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .logo {
         font-size: 20px;
     }
@@ -79,9 +83,9 @@ nav {
         font-size: 14px;
         margin-left: 10px;
     }
-}
-
-@media screen and (max-width: 600px) {
+} */
+/* 
+@media screen and (min-devic-width: 375px) and (min-device-height: 812px) {
     .menu-icon {
         display: block;
     }
@@ -115,5 +119,40 @@ nav {
     .menu-list.close {
         right: -100%;
         transition: all 0.5s ease-in-out;
+    }
+}
+#toggle {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: white;
+    font-size: 40px;
+    display: none;
+} */
+
+@media screen and (max-width: 576px) and (max-width: 767.98px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-list li {
+        padding: 5px 15px;
+    }
+
+    #toggle {
+        display: block;
+    }
+    body {
+        margin-top: 10px;
+    }
+    .hero h2 {
+        font-size: 8px;
     }
 }

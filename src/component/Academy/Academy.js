@@ -8,13 +8,12 @@ const Academy = () => {
         <>
             <section className="academy">
                 <div className="container top">
-                    <div className="heading" id="academy">
+                    <div className="heading">
                         <h1 className="text-center">학회와 사회진출반</h1>
                         <h4>
                             공빅학부는 3개의 학회를 두어 선배와 후배 간의 학문적
                             교류와 함께 각 전공에 대한 심화연구를 지원하고 있다.
-                        </h4>
-                        <h4>
+                            <br />
                             공빅학부는 2개의 사회진출 준비반을 두어 졸업 후
                             진로를 준비할 수 있도록 돕고 있다.
                         </h4>
