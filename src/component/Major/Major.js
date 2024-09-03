@@ -1,5 +1,5 @@
 import React from 'react';
-import './Major.css';
+import './Major.module.css';
 import major1 from '../pic/yg.jpg';
 import major2 from '../pic/sm.png';
 

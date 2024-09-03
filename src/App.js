@@ -18,28 +18,13 @@ const App = () => {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />}></Route>
-                <Route
-                    path="/component/Major/Major"
-                    element={<Major />}
-                ></Route>
+                <Route path="/component/Major/Major" element={<Major />}></Route>
                 <Route path="/component/Prof/Prof" element={<Prof />}></Route>
-                <Route
-                    path="/component/Academy/Academy"
-                    element={<Academy />}
-                ></Route>
+                <Route path="/component/Academy/Academy" element={<Academy />}></Route>
                 <Route path="/component/Lab/Lab" element={<Lab />}></Route>
-                <Route
-                    path="/component/Capston/Capston"
-                    element={<Capston />}
-                ></Route>
-                <Route
-                    path="/component/Event/Event"
-                    element={<Event />}
-                ></Route>
-                <Route
-                    path="/component/Contact/Contact"
-                    element={<Contact />}
-                ></Route>
+                <Route path="/component/Capston/Capston" element={<Capston />}></Route>
+                <Route path="/component/Event/Event" element={<Event />}></Route>
+                <Route path="/component/Contact/Contact" element={<Contact />}></Route>
             </Routes>
             <Footer />
         </div>
